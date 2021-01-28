@@ -6,38 +6,38 @@ module.exports = [
   //   excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
   // }],
 
-  'vuepress-plugin-baidu-autopush', // 百度自动推送
+  // // 'vuepress-plugin-baidu-autopush', // 百度自动推送
 
-  // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
-  [
-    'thirdparty-search',
-    {
-      thirdparty: [
-        // 可选，默认 []
-        {
-          title: '在MDN中搜索',
-          frontUrl: 'https://developer.mozilla.org/zh-CN/search?q=', // 搜索链接的前面部分
-          behindUrl: '', // 搜索链接的后面部分，可选，默认 ''
-        },
-        {
-          title: '在Runoob中搜索',
-          frontUrl: 'https://www.runoob.com/?s=',
-        },
-        {
-          title: '在Vue API中搜索',
-          frontUrl: 'https://cn.vuejs.org/v2/api/#',
-        },
-        {
-          title: '在Bing中搜索',
-          frontUrl: 'https://cn.bing.com/search?q=',
-        },
-        {
-          title: '通过百度搜索本站的',
-          frontUrl: 'https://www.baidu.com/s?wd=site%3Axugaoyi.com%20',
-        },
-      ],
-    },
-  ],
+  // // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
+  // [
+  //   'thirdparty-search',
+  //   {
+  //     thirdparty: [
+  //       // 可选，默认 []
+  //       {
+  //         title: '在MDN中搜索',
+  //         frontUrl: 'https://developer.mozilla.org/zh-CN/search?q=', // 搜索链接的前面部分
+  //         behindUrl: '', // 搜索链接的后面部分，可选，默认 ''
+  //       },
+  //       {
+  //         title: '在Runoob中搜索',
+  //         frontUrl: 'https://www.runoob.com/?s=',
+  //       },
+  //       {
+  //         title: '在Vue API中搜索',
+  //         frontUrl: 'https://cn.vuejs.org/v2/api/#',
+  //       },
+  //       {
+  //         title: '在Bing中搜索',
+  //         frontUrl: 'https://cn.bing.com/search?q=',
+  //       },
+  //       {
+  //         title: '通过百度搜索本站的',
+  //         frontUrl: 'https://www.baidu.com/s?wd=site%3Axugaoyi.com%20',
+  //       },
+  //     ],
+  //   },
+  // ],
 
   [
     'one-click-copy',
@@ -70,12 +70,6 @@ module.exports = [
       options: {
         bgColor: 'rgba(0,0,0,0.6)',
       },
-    },
-  ],
-  [
-    'vuepress-plugin-baidu-tongji', // 百度统计
-    {
-      hm: '503f098e7e5b3a5b5d8c5fc2938af002',
     },
   ],
   [
