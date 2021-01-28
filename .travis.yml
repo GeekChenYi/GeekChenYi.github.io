@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+    - 12
+cache: yarn
+install:
+    - yarn
+script:
+    - yarn build
+after_success:
+    - cd public
+    - git init
+    - git add -A
+    - git commit -m 'deploy'
+    - git push --quiet --force "https://github.com/GeekChenYi/GeekChenYi.github.io.git" master:main
