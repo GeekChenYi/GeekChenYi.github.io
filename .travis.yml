@@ -15,4 +15,4 @@ deploy:
   target-branch: main
   keep_history: true
   on:
-    branch: master
+    branch: docs
