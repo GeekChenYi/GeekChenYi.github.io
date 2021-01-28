@@ -12,6 +12,7 @@ deploy:
   skip-cleanup: true
   github-token: $GITHUB_TOKEN # github 上的token环境变量
   local-dir: ./public/ ## 根据情况自定义到静态文件输出目录
+  target-branch: main
   keep_history: true
   on:
     branch: master

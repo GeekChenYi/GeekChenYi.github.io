@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: GeekChenYi
-tagline: 人生不可能总是顺心如意的，但是持续朝着阳光走，影子就会躲在后面。刺眼，却是对的方向。
+tagline: 人生不可能总是顺心如意的，但是持续朝着阳光走，影子就会躲在后面。
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
