@@ -1,14 +1,17 @@
 language: node_js
 node_js:
-    - 12
-cache: yarn
+    - lts/*
+before_install:
+    - export TZ='Asia/Shanghai'  # 设置时区    
 install:
-    - yarn
+    - yarn install
 script:
     - yarn build
-after_success:
-    - cd public
-    - git init
-    - git add -A
-    - git commit -m 'deploy'
-    - git push --quiet --force "https://github.com/GeekChenYi/GeekChenYi.github.io.git" master:main
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN # github 上的token环境变量
+  local-dir: ./public/ ## 根据情况自定义到静态文件输出目录
+  keep_history: true
+  on:
+    branch: master
