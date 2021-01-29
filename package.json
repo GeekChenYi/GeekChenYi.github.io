@@ -1,5 +1,5 @@
 {
-  "name": "theme-vdoing-blog",
+  "name": "GeekChenYi.github.io",
   "version": "1.0.0",
   "scripts": {
     "dev": "vuepress dev docs",
@@ -17,6 +17,7 @@
     "commitizen": "^4.2.3",
     "cz-conventional-changelog": "^3.3.0",
     "dayjs": "^1.9.7",
+    "husky": "^4.3.8",
     "inquirer": "^7.1.0",
     "json2yaml": "^1.1.0",
     "vuepress": "1.5.2",
@@ -35,11 +36,6 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E $HUSKY_GIT_PARAMS"
     }
   }
 }
