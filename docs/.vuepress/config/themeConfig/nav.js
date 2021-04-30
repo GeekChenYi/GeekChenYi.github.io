@@ -22,16 +22,12 @@ module.exports = [
           { text: '《Vue》笔记', link: '/note/vue/' },
           {
             text: '《TypeScript》学习笔记',
-            link: '/note/typescript-axios/',
+            link: '/note/typescript/',
           },
           {
             text: '《Git》学习笔记',
             link: '/note/git/',
-          },
-          {
-            text: '《TypeScript》笔记',
-            link: '/pages/51afd6/',
-          },
+          }
         ],
       },
     ],
