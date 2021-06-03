@@ -12,14 +12,14 @@ features: # 可选的
     details: JavaScript、ES6、Vue框架等前端技术
     link: /web/ # 可选
     imgUrl: /img/web.png # 可选
-  - title: 页面
-    details: html5/css3，前端页面相关技术
-    link: /ui/
-    imgUrl: /img/ui.png
   - title: 技术
     details: 技术文档、教程、技巧、总结等文章
     link: /technology/
     imgUrl: /img/other.png
+  - title: 社科
+    details: 社会科学，核心价值观、政策等文章
+    link: /social/
+    imgUrl: /img/ui.png
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 # postList: detailed
