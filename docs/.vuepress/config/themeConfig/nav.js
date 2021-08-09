@@ -43,13 +43,6 @@ module.exports = [
     ],
   },
   {
-    text: '社科',
-    link: '/social/',
-    items: [
-      { text: '中国特色社会主义思想', link: '/pages/0cdcde/' }
-    ],
-  },
-  {
     text: '更多',
     link: '/more/',
     items: [
