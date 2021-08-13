@@ -9,8 +9,8 @@ module.exports = [
       {
         text: '热门专题',
         items: [
-          { text: 'TypeScript》学习笔记', link: '/note/typescript/' },
-          { text: 'Vue》笔记', link: '/note/vue/' },
+          { text: '《TypeScript》学习笔记', link: '/note/typescript/' },
+          { text: '《Vue》笔记', link: '/note/vue/' },
         ],
       },
       {
