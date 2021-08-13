@@ -1,6 +1,9 @@
 #!/usr/bin/env sh
 
+# 打包编译
+# npm run build
 # 常量定义
+distDir='/www/web/site/blog/dist'
 TIMESPAN=`date +%s`
 TIMEFMT=`date +%Y-%m-%d\ %H:%M:%S`
 DEPLOYNAME=GeekChenYi.docs.${TIMESPAN}
@@ -18,15 +21,15 @@ tar -zcvf ${DEPLOYFILES} ./*
 
 # deploy to aliyun
 ssh -p 22 -o StrictHostKeyChecking=no root@${SERVER} << prod_deploy
-cd /www/web/site/blog/dist
+cd ${distDir}
 rm -rdf ./*
 mkdir tarfiles
 exit;
 prod_deploy
 # 本地文件上传到服务器
-scp -P 22 -o StrictHostKeyChecking=no ${DEPLOYFILES} root@${SERVER}:/www/web/site/blog/dist/tarfiles
+scp -P 22 -o StrictHostKeyChecking=no ${DEPLOYFILES} root@${SERVER}:${distDir}/tarfiles
 # 压缩包解压
-ssh -p 22 -o StrictHostKeyChecking=no root@${SERVER} tar -xzf /www/web/site/blog/dist/tarfiles/${DEPLOYFILES} -C /www/web/site/blog/dist
+ssh -p 22 -o StrictHostKeyChecking=no root@${SERVER} tar -xzf ${distDir}/tarfiles/${DEPLOYFILES} -C ${distDir}
 # $?上一条命令的退出码
 if [ $? -ne 0 ]; then
     echo "fail"
@@ -36,3 +39,5 @@ else
 fi
 cd - # 退回开始所在目录
 rm -rf docs/.vuepress/dist
+exit
+echo done
