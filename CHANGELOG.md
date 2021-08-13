@@ -1,3 +1,66 @@
+## 1.0.1 (2021-08-13)
+
+
+### Bug Fixes
+
+* **global:** 删除社科相关模块内容 ([eb68a62](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/eb68a62fd7606c2573972aee69bf0c954a53b521))
+
+
+### Features
+
+* **技术博客相关:** npm相关内容增加 ([db5b576](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/db5b5769cefbbed88ba88d3b89a173a96f9cfdc7))
+* **技术文档:** 新增技术文档 ([94ee744](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/94ee7447b4607bda71fcf7cae9287a97c5c07b84))
+* **社科-成语积累:** 增加成语积累相关内容 ([96c1835](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/96c183571d03652c860aece9b8ed94f152ea4881))
+* **社科类:** 增加社科类相关文章 ([7747d56](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/7747d569973337eb97f0574792b9e7df9ba10780))
+* **社科:** 添加申论模拟题 ([146598d](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/146598dd849b77361636f82403b1a1aca11b350a))
+* **社科:** 添加中国特色社会主义思想相关文章 ([2817410](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/28174103c22e7f2b839168f81aa4714f8ff6d7dc))
+* **社科:** 添加中国特色社会主义思想相关文章 ([a10acae](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/a10acae82e3a9de125162215bccfaf49ad997d1c))
+* **社科:** 增加社科相关内容 ([dd43040](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/dd43040b13a5143b3587f1c06533350ed61ecb97))
+* **社科:** 增加社科相关文章 ([20850b5](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/20850b5e185bb0528c5abe1233d86cddf65702ae))
+* **社科:** 增加申论相关文章 ([64fbac6](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/64fbac6fde965efc019a94aac71711a262e95f02))
+* **小程序:** 增加微信小程序云开发相关内容 ([1dd4861](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/1dd4861cdb09e2ad39ed60e2d512a78cae714864))
+* **增加社科类相关文章:** 增加社科类相关文章 ([7dbfcc0](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/7dbfcc0aa643659ced29b55d5d7785c7e9118ac5))
+* **增加windicss相关文件:** 增加WindiCss相关文件 ([ee873f4](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/ee873f49102b5fc13b91ee9b3820bd8e93a006b0))
+* **changelog.md:** 增加changelog.md相关配置 ([460f255](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/460f25551f786128ace920eda2e56673268e5689))
+* **git:** 增加git相关内容 ([7b642da](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/7b642dad25ee46af4a1394d0df16860f7a877fca))
+* **global:** 调整目录结构，增加社科类文档 ([b927521](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/b92752122bafe2e0484292a511daee24e3251a94))
+* **less:** 增加less相关技术文档 ([58f0ef3](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/58f0ef3f44082bf6e8a32a6d68cc625b7948d36e))
+* **less:** 增加less相关文档 ([1d68e43](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/1d68e433bf459cb0d412d7faa7b2fa37f4deeed8))
+* **less:** 增加less相关文件 ([151dbd7](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/151dbd793ce74b97bd6217d8e2c3cdcb25f90175))
+* **miniprogram:** 微信小程序相关 ([1ebaf17](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/1ebaf175b88e95a300b28bc11394de3e4388759e))
+* **miniprogram:** 微信小程序相关笔记 ([3d67e33](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/3d67e33b302ea0cd3caf4b4b3f4a28bdbfe6374c))
+* **miniprogram:** 小程序相关 ([8f6d662](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/8f6d662e31b4f5c6c59d612bbf4deeca0d31fe36))
+* **miniprogram:** 增加微信小程序收藏目录及相关文章 ([f7d601e](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/f7d601e361653333a3e597a3c92843a0a0deffcc))
+* **package.json:** 更新博客主题版本 ([8e856ea](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/8e856ea7e69009ed53ff888d8887fc08c167acf3))
+* **package.json:** 配置规范化提交 ([4ce67cd](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/4ce67cdc4c6e21698cf804b4ec125e545f83f6f4))
+* **package.json:** 配置规范化提交 ([812eab9](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/812eab9e746c14d99638f74729c34a88d2f18ad0))
+* **package.json:** 删除多余文件 ([b7f4c85](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/b7f4c85e9fc7aa1d1db0ef0b73459f68a3b0056a))
+* **package.json:** 修改技术文档package.json文档的内容 ([a566113](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/a56611349d228d5aa03a2aa30d88663ba637bc82))
+* **readme.md:** 更新README.md文档 ([2064358](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/2064358f41c209351ceca988cdd6ed24b5e4fd22))
+* **readme.md:** 修改README.md文档 ([b9ff6ef](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/b9ff6ef0ac00846a4d1a5d87d32a808d818a11f0))
+* **readme.md:** 修改README.md文档内容 ([24766e9](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/24766e99d134f7ce9a558e6e52d8820856b2b705))
+* **tailwindcss:** 增加TailWindCSS基础使用文档 ([7c25c5e](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/7c25c5e6346fd00d107d6ed2e355d7880dd1b689))
+* **ts&&vue:** 增加TS和Vue相关文档 ([3f0c0ec](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/3f0c0ec1d1c54b6e20353f11875fd882c6980dd9))
+* **ts:** 增加TS相关内容 ([e08dc28](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/e08dc286e585ee0c8fc16b1cebe587d560b3081d))
+* **ts:** 增加TS相关内容 ([8afd660](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/8afd6600f84870d35887ce12b3e67d7967c7fe66))
+* **ts:** 增加TS相关内容 ([5b46a7c](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/5b46a7c45f99c420d97fe0c7061c6539f42f694b))
+* **ts:** 增加TS相关文章 ([60d53e9](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/60d53e98ec55c694094054ce08b1ba4701dacd2a))
+* **ts:** 增加TS相关知识 ([0acc994](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/0acc99459684112a697c9c3994f8402fb1660b4d))
+* **ts:** 增加TS中内置类型相关内容 ([440e2e8](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/440e2e88ce7df2e9ba65f6dcc4e2fd97bf49e0c4))
+* **ts:** 增加TS中unknown类型相关内容 ([bc065fc](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/bc065fc2bfcca86e38d3e7ce8de3e915f1ef585e))
+* **uni-app:** 增加uni-app学习笔记 ([8aacae5](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/8aacae5104978f9177d5ecdb68eabaefd9184c95))
+* **vue.js&&es:** 增加vue.nextTick()相关内容 ([dcee5eb](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/dcee5ebbabb5d65acd77b0a459a6cc157885ad74))
+* **vue样式穿透:** 增加vue样式穿透文档相关内容 ([0290846](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/02908468e657e324906b36869029bb1bf662f47e))
+* **vue:** 增加组件重置data数据相关内容 ([f19a640](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/f19a6403620036c5d15dc2bea3f4bfa042ed3e21))
+* **vue:** 增加Vue.js相关内容 ([9073794](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/907379403d1df8e5ecfac815626ab1457693fead))
+* **vue:** 增加vue.js相关neirong ([6f33135](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/6f33135c49eae800c9964bfe6999da1693dad9e4))
+* **vue:** 增加vue相关的内容 ([e0d4958](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/e0d4958b8f868aa5221dc4db01bdd9ebe12d02e7))
+* **vue:** 增加vue相关文章 ([e2196aa](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/e2196aaaed92d4f75e4c1bd8912bb022e73f7ff9))
+* **vue:** 增加vue中过渡相关neirong ([b0fe0d0](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/b0fe0d02ead23e4d0afc098c72f20165990cc287))
+* **vuex:** 增加vuex相关内容 ([f39324d](https://github.com/GeekChenYi/GeekChenYi.github.io/commit/f39324dd5fdd598f1356c99c5ae360c424aae0d9))
+
+
+
 # 1.0.0 (2021-08-13)
 
 
