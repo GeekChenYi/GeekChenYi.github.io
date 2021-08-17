@@ -40,10 +40,18 @@ module.exports = [
     text: '技术',
     link: '/technology/',
     items: [
-      { text: '技术文档', link: '/pages/ad247c4332211551'},
+      { text: '技术文档', link: '/pages/ad247c4332211551/'},
       { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
       { text: 'Nodejs', link: '/pages/117708e0af7f0bd9/' },
       { text: '博客搭建', link: '/pages/d557b9a89a215d2e/' },
+    ],
+  },
+  {
+    text: '工程化',
+    link: '/modules/',
+    items: [
+      { text: '测试文档1', link: '/pages/b59b72/'},
+      { text: '测试文档2', link: '/pages/b0456f/' },
     ],
   },
   {
