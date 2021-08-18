@@ -51,7 +51,7 @@ module.exports = [
     link: '/modules/',
     items: [
       { text: '测试文档1', link: '/pages/b59b72/'},
-      { text: '测试文档2', link: '/pages/b0456f/' },
+      { text: '性能优化', link: '/pages/b0456f/' },
     ],
   },
   {
